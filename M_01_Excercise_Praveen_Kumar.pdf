@@ -1,0 +1,1064 @@
+%PDF-1.4
+%‚„œ”
+1 0 obj
+<<
+/Producer (pypdf)
+>>
+endobj
+2 0 obj
+<<
+/Type /Pages
+/Count 7
+/Kids [ 4 0 R 10 0 R 13 0 R 16 0 R 19 0 R 22 0 R 25 0 R ]
+>>
+endobj
+3 0 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+>>
+endobj
+4 0 obj
+<<
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+5 0 obj
+<<
+/Length 4802
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 1) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 764.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 4 Tm /F2 19 Tf 23 TL 167.2077 0 Td (M_01_Excercise) Tj T* -167.2077 0 Td ET
+Q
+Q
+q
+1 0 0 1 57.02362 735.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 15 TL /F2 11 Tf 0 0 0 rg (Name:) Tj /F1 11 Tf ( Praveen Kumar) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 716.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 15 TL /F2 11 Tf 0 0 0 rg (Emp ID:) Tj /F1 11 Tf ( 90119740) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 697.7008 cm
+q
+BT 1 0 0 1 0 4 Tm 15 TL /F2 11 Tf 0 0 0 rg (Database:) Tj /F1 11 Tf ( PostgreSQL - icicibank) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 685.7008 cm
+Q
+q
+1 0 0 1 57.02362 595.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 67.8 Tm /F2 12.2 Tf 16 TL (Q1. ICICI Bank's Baner Pune branch stores customer addresses in a spreadsheet,) Tj T* (and the credit card department keeps its own copy of the same addresses. A) Tj T* (customer moves house and tells only the branch. Name the two file-system) Tj T* (problems this creates, and explain in two sentences how a database prevents) Tj T* (both.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 529.7008 cm
+q
+BT 1 0 0 1 0 49.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (The two problems are ) Tj /F2 10.5 Tf (data redundancy) Tj /F1 10.5 Tf ( and ) Tj /F2 10.5 Tf (data inconsistency) Tj /F1 10.5 Tf (. The same customer information is) Tj T* (stored in more than one place, so different copies can have different values. A database stores shared) Tj T* (information in a controlled central system, so an approved change can be updated once and used by all) Tj T* (departments.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 487.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q2. State three things a DBMS does that a file system does not. For each, give one) Tj T* (concrete banking consequence of not having it.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 391.7008 cm
+q
+BT 1 0 0 1 0 79.5 Tm 15 TL /F2 10.5 Tf 0 0 0 rg (1. Concurrency control:) Tj /F1 10.5 Tf ( It manages simultaneous updates; otherwise two ATMs could process) Tj T* (withdrawals using the same old balance.) Tj  T* /F2 10.5 Tf (2. Transaction management:) Tj /F1 10.5 Tf ( It makes related operations succeed or fail together; otherwise money) Tj T* (could be debited without being credited.) Tj  T* /F2 10.5 Tf (3. Data integrity:) Tj /F1 10.5 Tf ( It enforces rules such as keys and constraints; otherwise invalid account-customer) Tj T* (links or invalid balances could be stored.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 365.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.8 Tm /F2 12.2 Tf 16 TL (Q3. Fill in the table with the matching term.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 284.7008 cm
+q
+BT 1 0 0 1 0 64.5 Tm 15 TL /F2 10.5 Tf 0 0 0 rg (Relation:) Tj /F1 10.5 Tf ( Table - example: customer.) Tj  T* /F2 10.5 Tf (Tuple:) Tj /F1 10.5 Tf ( Row/record - one customer record.) Tj  T* /F2 10.5 Tf (Attribute:) Tj /F1 10.5 Tf ( Column/field - for example customer_id.) Tj  T* /F2 10.5 Tf (Degree:) Tj /F1 10.5 Tf ( Number of columns - loan has 11 columns.) Tj  T* /F2 10.5 Tf (Cardinality:) Tj /F1 10.5 Tf ( Number of rows - customer has 30 rows in the supplied data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 242.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q4. For each of the following, say whether it is a primary key, a candidate key, a) Tj T* (foreign key, or none of these.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 146.7008 cm
+q
+BT 1 0 0 1 0 79.5 Tm 15 TL /F2 10.5 Tf 0 0 0 rg (1. customer.customer_id) Tj /F1 10.5 Tf ( - Primary key) Tj  T* /F2 10.5 Tf (2. account.account_number) Tj /F1 10.5 Tf ( - Candidate key) Tj  T* /F2 10.5 Tf (3. account.customer_id) Tj /F1 10.5 Tf ( - Foreign key) Tj  T* /F2 10.5 Tf (4. account.balance) Tj /F1 10.5 Tf ( - None) Tj  T* /F2 10.5 Tf (5. employee.manager_id) Tj /F1 10.5 Tf ( - Foreign key) Tj  T* /F2 10.5 Tf (6. branch.ifsc_code) Tj /F1 10.5 Tf ( - Candidate key) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 120.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.8 Tm /F2 12.2 Tf 16 TL (Q5. Classify each workload as OLTP or OLAP, and give a one-line reason.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 54.70079 cm
+q
+BT 1 0 0 1 0 49.5 Tm 15 TL /F2 10.5 Tf 0 0 0 rg (1. Mobile app balance check - OLTP:) Tj /F1 10.5 Tf ( operational, frequent access.) Tj  T* /F2 10.5 Tf (2. NPL by branch for the quarter - OLAP:) Tj /F1 10.5 Tf ( historical analysis and aggregation.) Tj  T* /F2 10.5 Tf (3. ATM dispenses Rs 10,000 - OLTP:) Tj /F1 10.5 Tf ( real-time transaction processing.) Tj  T* /F2 10.5 Tf (4. Regulator asks total value of transactions above Rs 200,000 for last FY - OLAP:) Tj /F1 10.5 Tf ( large historical) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+6 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+7 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+8 0 obj
+<<
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+9 0 obj
+<<
+/BaseFont /Courier
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+10 0 obj
+<<
+/Contents 11 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 12 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+11 0 obj
+<<
+/Length 4973
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 2) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 727.7008 cm
+q
+BT 1 0 0 1 0 49.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (aggregation.) Tj  T* /F2 10.5 Tf (5. Teller opens a savings account - OLTP:) Tj /F1 10.5 Tf ( operational insert/update.) Tj  T* /F2 10.5 Tf (6. Marketing finds top 100 by average monthly balance - OLAP:) Tj /F1 10.5 Tf ( analytical calculation over many) Tj T* (records.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 669.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q6. ICICI Bank's head of reporting asks to run the quarterly regulatory report) Tj T* (directly against the core banking Oracle database. Give three technical reasons to) Tj T* (refuse, and name what you would offer instead.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 603.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 49.5 Tm /F1 10.5 Tf 15 TL (The report can use significant CPU, memory and I/O on the core system. Long-running analytical) Tj T* (queries can also compete with banking transactions for resources and increase transaction latency. It) Tj T* (can affect the availability and performance of the core banking workload. I would offer a separate) Tj T* (reporting or data-warehouse environment.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 577.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.8 Tm /F2 12.2 Tf 16 TL (Q7. Match each ACID property to the failure it prevents.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 511.7008 cm
+q
+BT 1 0 0 1 0 49.5 Tm 15 TL /F2 10.5 Tf 0 0 0 rg (Atomicity -> d:) Tj /F1 10.5 Tf ( Money is debited but never credited.) Tj  T* /F2 10.5 Tf (Consistency -> c:) Tj /F1 10.5 Tf ( An account exists for a customer who does not.) Tj  T* /F2 10.5 Tf (Isolation -> b:) Tj /F1 10.5 Tf ( Two ATMs both pay out against the same balance.) Tj  T* /F2 10.5 Tf (Durability -> a:) Tj /F1 10.5 Tf ( A committed transfer disappears after a power cut.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 469.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL -0.008177 Tw (Q8. Explain in your own words why the write-ahead log is written to disk before the) Tj T* 0 Tw (data page. What would break if the order were reversed?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 418.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (The WAL is written first so the information needed for crash recovery is safely stored before the actual) Tj T* (data page is written. If the data page were written first and the system crashed before the WAL record) Tj T* (was durable, PostgreSQL might not have enough information to recover the change correctly.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 360.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q9. A junior developer writes SELECT * FROM customer in the internet banking) Tj T* (application. Explain which type of data independence this breaks and what will go) Tj T* (wrong when the bank later adds a pan_number column.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 309.7008 cm
+q
+BT 1 0 0 1 0 34.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (It breaks ) Tj /F2 10.5 Tf (logical data independence) Tj /F1 10.5 Tf ( because the application depends on the exact set of columns in) Tj T* (the table. When pan_number is added, SELECT * returns an additional column and can change the) Tj T* (result structure expected by the application.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 267.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL -0.127138 Tw (Q10. In one sentence each, state where you would use Oracle, PostgreSQL, MySQL) Tj T* 0 Tw (and Redis at ICICI Bank, and why.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 201.7008 cm
+q
+BT 1 0 0 1 0 49.5 Tm 15 TL /F2 10.5 Tf 0 0 0 rg (Oracle:) Tj /F1 10.5 Tf ( Enterprise/core banking workloads where Oracle is the established relational database.) Tj  T* /F2 10.5 Tf (PostgreSQL:) Tj /F1 10.5 Tf ( Open-source relational and data-engineering workloads.) Tj  T* /F2 10.5 Tf (MySQL:) Tj /F1 10.5 Tf ( Application-facing relational workloads where MySQL is suitable.) Tj  T* /F2 10.5 Tf (Redis:) Tj /F1 10.5 Tf ( Fast in-memory access such as caching, sessions and frequently accessed temporary data.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 159.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q11. Write a query that returns the database name, the current user and the server) Tj T* (port.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 123.2008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 23.5 Tm /F3 8 Tf 10.5 TL (SELECT current_database\(\),) Tj T* (       current_user,) Tj T* (       inet_server_port\(\);) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 65.20079 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q12. Using information_schema, list every column of the loan table with its data) Tj T* (type and whether it accepts NULL. How many columns does loan have? What is) Tj T* (the degree of the relation?) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+12 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+13 0 obj
+<<
+/Contents 14 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 15 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+14 0 obj
+<<
+/Length 4187
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 3) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 714.2008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 65.5 Tm /F3 8 Tf 10.5 TL (SELECT column_name,) Tj T* (       data_type,) Tj T* (       is_nullable) Tj T* (FROM information_schema.columns) Tj T* (WHERE table_schema = 'public') Tj T* (  AND table_name = 'loan') Tj T* (ORDER BY ordinal_position;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 672.2008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q13. Report the number of rows in all nine tables in a single result set, sorted by) Tj T* (table name.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 562.2008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 97 Tm /F3 8 Tf 10.5 TL (SELECT 'account' AS table_name, COUNT\(*\) AS row_count FROM account) Tj T* (UNION ALL SELECT 'account_txn', COUNT\(*\) FROM account_txn) Tj T* (UNION ALL SELECT 'beneficiary', COUNT\(*\) FROM beneficiary) Tj T* (UNION ALL SELECT 'branch', COUNT\(*\) FROM branch) Tj T* (UNION ALL SELECT 'card', COUNT\(*\) FROM card) Tj T* (UNION ALL SELECT 'customer', COUNT\(*\) FROM customer) Tj T* (UNION ALL SELECT 'employee', COUNT\(*\) FROM employee) Tj T* (UNION ALL SELECT 'loan', COUNT\(*\) FROM loan) Tj T* (UNION ALL SELECT 'loan_payment', COUNT\(*\) FROM loan_payment) Tj T* (ORDER BY table_name;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 504.2008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q14. List every foreign key in the database, showing the child table, the child) Tj T* (column, and the parent table it points to. Which table has a foreign key pointing at) Tj T* (itself, and what does that represent in the bank?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 352.2008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 139 Tm /F3 8 Tf 10.5 TL (SELECT tc.table_name AS child_table,) Tj T* (       kcu.column_name AS child_column,) Tj T* (       ccu.table_name AS parent_table,) Tj T* (       ccu.column_name AS parent_column) Tj T* (FROM information_schema.table_constraints AS tc) Tj T* (JOIN information_schema.key_column_usage AS kcu) Tj T* (  ON tc.constraint_name = kcu.constraint_name) Tj T* ( AND tc.table_schema = kcu.table_schema) Tj T* (JOIN information_schema.constraint_column_usage AS ccu) Tj T* (  ON tc.constraint_name = ccu.constraint_name) Tj T* ( AND tc.table_schema = ccu.table_schema) Tj T* (WHERE tc.constraint_type = 'FOREIGN KEY') Tj T* (  AND tc.table_schema = 'public') Tj T* (ORDER BY child_table, child_column;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 310.2008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q15. Find the three largest tables on disk, including indexes, with sizes in a) Tj T* (human-readable form. Why is account_txn the largest?) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 252.7008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 44.5 Tm /F3 8 Tf 10.5 TL (SELECT relname AS table_name,) Tj T* (       pg_size_pretty\(pg_total_relation_size\(relid\)\) AS total_size) Tj T* (FROM pg_catalog.pg_statio_user_tables) Tj T* (ORDER BY pg_total_relation_size\(relid\) DESC) Tj T* (LIMIT 3;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 210.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q16. ICICI Bank opens a current account for a new corporate customer. Insert the) Tj T* (customer and the account using the given details, then read both rows back.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 58.70079 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 139 Tm /F3 8 Tf 10.5 TL (BEGIN;) Tj T*  T* (INSERT INTO customer) Tj T* (\(customer_id, first_name, last_name, date_of_birth, email, phone, city,) Tj T* ( kyc_status, risk_rating, customer_since, home_branch_id\)) Tj T* (VALUES) Tj T* (\(1032, 'Latha', 'Krishnan', DATE '1985-09-23',) Tj T* ( 'latha.krishnan@example.com', '9845099887', 'Chennai',) Tj T* ( 'VERIFIED', 'MEDIUM', DATE '2026-03-01', 5\);) Tj T*  T* (INSERT INTO account) Tj T* (\(account_id, account_number, customer_id, branch_id, account_type,) Tj T* ( balance, currency, status, opened_date, interest_rate\)) Tj T* (VALUES) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+15 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+16 0 obj
+<<
+/Contents 17 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 18 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+17 0 obj
+<<
+/Length 3166
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 4) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 703.7008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 76 Tm /F3 8 Tf 10.5 TL (\(9047, 'ICIC0000009047', 1032, 5, 'CURRENT',) Tj T* ( 500000.00, 'INR', 'ACTIVE', DATE '2026-03-01', 0.00\);) Tj T*  T* (SELECT * FROM customer) Tj T* (WHERE customer_id = 1032;) Tj T*  T* (SELECT * FROM account) Tj T* (WHERE account_id = 9047;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 645.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q17. The customer deposits Rs 75,000 and then withdraws Rs 20,000. Write both) Tj T* (updates so that they compute from the current balance rather than assigning an) Tj T* (absolute figure, then confirm the final balance is 555,000.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 504.2008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 128.5 Tm /F3 8 Tf 10.5 TL (UPDATE account) Tj T* (SET balance = balance + 75000) Tj T* (WHERE account_id = 9047;) Tj T*  T* (UPDATE account) Tj T* (SET balance = balance - 20000) Tj T* (WHERE account_id = 9047;) Tj T*  T* (SELECT account_id, account_number, balance) Tj T* (FROM account) Tj T* (WHERE account_id = 9047;) Tj T*  T* (ROLLBACK;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 462.2008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q18. Try to delete customer 1032 without deleting the account first. Record the) Tj T* (error. Then delete both rows in the correct order and confirm the counts.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 100.2008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 349 Tm /F3 8 Tf 10.5 TL (BEGIN;) Tj T*  T* (INSERT INTO customer) Tj T* (\(customer_id, first_name, last_name, date_of_birth, email, phone, city,) Tj T* ( kyc_status, risk_rating, customer_since, home_branch_id\)) Tj T* (VALUES) Tj T* (\(1032, 'Latha', 'Krishnan', DATE '1985-09-23',) Tj T* ( 'latha.krishnan@example.com', '9845099887', 'Chennai',) Tj T* ( 'VERIFIED', 'MEDIUM', DATE '2026-03-01', 5\);) Tj T*  T* (INSERT INTO account) Tj T* (\(account_id, account_number, customer_id, branch_id, account_type,) Tj T* ( balance, currency, status, opened_date, interest_rate\)) Tj T* (VALUES) Tj T* (\(9047, 'ICIC0000009047', 1032, 5, 'CURRENT',) Tj T* ( 500000.00, 'INR', 'ACTIVE', DATE '2026-03-01', 0.00\);) Tj T*  T* (SAVEPOINT before_delete;) Tj T*  T* (DELETE FROM customer) Tj T* (WHERE customer_id = 1032;) Tj T*  T* (ROLLBACK TO SAVEPOINT before_delete;) Tj T*  T* (DELETE FROM account) Tj T* (WHERE account_id = 9047;) Tj T*  T* (DELETE FROM customer) Tj T* (WHERE customer_id = 1032;) Tj T*  T* (SELECT COUNT\(*\) AS customer_count FROM customer;) Tj T* (SELECT COUNT\(*\) AS account_count FROM account;) Tj T*  T* (ROLLBACK;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 58.20079 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q19. Write three statements that the database must reject, one for each of these) Tj T* (reasons: FIXED account type, negative transaction amount, and IN_PROGRESS) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+18 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+19 0 obj
+<<
+/Contents 20 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 21 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+20 0 obj
+<<
+/Length 2924
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 5) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 771.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 3.8 Tm /F2 12.2 Tf 16 TL (KYC status.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 451.7008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 307 Tm /F3 8 Tf 10.5 TL (-- 1. Invalid account_type) Tj T* (BEGIN;) Tj T* (INSERT INTO account) Tj T* (\(account_id, account_number, customer_id, branch_id, account_type,) Tj T* ( balance, currency, status, opened_date, interest_rate\)) Tj T* (VALUES) Tj T* (\(9999, 'ICIC0000009999', 1001, 1, 'FIXED',) Tj T* ( 1000.00, 'INR', 'ACTIVE', CURRENT_DATE, 0.00\);) Tj T* (ROLLBACK;) Tj T*  T* (-- 2. Negative transaction amount) Tj T* (BEGIN;) Tj T* (INSERT INTO account_txn) Tj T* (\(txn_id, account_id, txn_date, txn_type, amount, channel,) Tj T* ( narration, status, reference_no\)) Tj T* (VALUES) Tj T* (\(999999, 9001, CURRENT_TIMESTAMP, 'DEBIT', -5000.00,) Tj T* ( 'ATM', 'Test transaction', 'SUCCESS', 'TEST999999'\);) Tj T* (ROLLBACK;) Tj T*  T* (-- 3. Invalid KYC status) Tj T* (BEGIN;) Tj T* (INSERT INTO customer) Tj T* (\(customer_id, first_name, last_name, date_of_birth, email, phone, city,) Tj T* ( kyc_status, risk_rating, customer_since, home_branch_id\)) Tj T* (VALUES) Tj T* (\(9999, 'Test', 'Customer', DATE '1990-01-01',) Tj T* ( 'test9999@example.com', '9999999999', 'Mumbai',) Tj T* ( 'IN_PROGRESS', 'MEDIUM', CURRENT_DATE, 1\);) Tj T* (ROLLBACK;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 409.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q20. Using two sessions, demonstrate that an uncommitted UPDATE in Session A) Tj T* (is invisible to Session B.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 131.7008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 265 Tm /F3 8 Tf 10.5 TL (-- SESSION A) Tj T* (BEGIN;) Tj T*  T* (UPDATE account) Tj T* (SET balance = balance + 1000) Tj T* (WHERE account_id = 9004;) Tj T*  T* (SELECT account_id, balance) Tj T* (FROM account) Tj T* (WHERE account_id = 9004;) Tj T*  T*  T* (-- SESSION B) Tj T* (SELECT account_id, balance) Tj T* (FROM account) Tj T* (WHERE account_id = 9004;) Tj T*  T*  T* (-- SESSION A) Tj T* (ROLLBACK;) Tj T*  T*  T* (-- SESSION B) Tj T* (SELECT account_id, balance) Tj T* (FROM account) Tj T* (WHERE account_id = 9004;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 89.70079 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q21. In a single transaction, transfer Rs 12,000 from account 9004 to account 9010,) Tj T* (then roll it back. Prove with a query before and after that neither balance changed.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 63.70079 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 13 Tm /F3 8 Tf 10.5 TL (SELECT account_id, balance) Tj T* (FROM account) Tj T* ET
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+21 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+22 0 obj
+<<
+/Contents 23 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 24 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+23 0 obj
+<<
+/Length 3905
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 6) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 535.7008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 244 Tm /F3 8 Tf 10.5 TL (WHERE account_id IN \(9004, 9010\)) Tj T* (ORDER BY account_id;) Tj T*  T* (BEGIN;) Tj T*  T* (UPDATE account) Tj T* (SET balance = balance - 12000) Tj T* (WHERE account_id = 9004;) Tj T*  T* (UPDATE account) Tj T* (SET balance = balance + 12000) Tj T* (WHERE account_id = 9010;) Tj T*  T* (SELECT account_id, balance) Tj T* (FROM account) Tj T* (WHERE account_id IN \(9004, 9010\)) Tj T* (ORDER BY account_id;) Tj T*  T* (ROLLBACK;) Tj T*  T* (SELECT account_id, balance) Tj T* (FROM account) Tj T* (WHERE account_id IN \(9004, 9010\)) Tj T* (ORDER BY account_id;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 493.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q22. Show the current values of shared_buffers, work_mem, wal_level and fsync.) Tj T* (For each, write one sentence explaining what it controls.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 446.7008 cm
+%PreformattedPara
+0 0 0 rg
+BT 1 0 0 1 7 34 Tm /F3 8 Tf 10.5 TL (SELECT name, setting) Tj T* (FROM pg_settings) Tj T* (WHERE name IN \('shared_buffers', 'work_mem', 'wal_level', 'fsync'\)) Tj T* (ORDER BY name;) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 404.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q23. UPI payments may peak at 4,000 transactions per second. The vendor) Tj T* (proposes MySQL MyISAM because it is faster for reads. Write the response.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 353.7008 cm
+q
+BT 1 0 0 1 0 34.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (MyISAM is not suitable for a payment transaction store because it does not provide the transaction and) Tj T* (crash-recovery guarantees expected for this type of workload. The specific alternative is ) Tj /F2 10.5 Tf (InnoDB) Tj /F1 10.5 Tf (, which) Tj T* (supports transactions, row-level locking and crash recovery.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 263.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 67.8 Tm /F2 12.2 Tf 16 TL (Q24. The bank has 40 million rows in account_txn and growing by 2 million a) Tj T* (month. The branch operations team wants a screen showing every transaction for) Tj T* (an account, and the risk team wants monthly totals across all accounts. Explain) Tj T* (why one database design cannot serve both well, and describe the two-system) Tj T* (arrangement.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 182.7008 cm
+q
+BT 1 0 0 1 0 64.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (The account screen needs fast selective queries for day-to-day operations, while monthly totals require) Tj T* (large scans and aggregations across historical data. Running both workloads on the same system can) Tj T* (make the operational screen slower. I would keep the operational database for transactions and use a) Tj T* (separate data warehouse/reporting system for analytics. In this programme, Module 10 builds) Tj T* /F2 10.5 Tf (ICICIBankDW) Tj /F1 10.5 Tf ( for the warehouse side.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 124.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL -0.002278 Tw (Q25. During an incident review, a developer says: "The application logged 'transfer) Tj T* 0 Tw (successful', so the money must have moved." Explain why that statement is not) Tj T* (evidence, and state what would be.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 73.70079 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 34.5 Tm /F1 10.5 Tf 15 TL (An application log only shows that the application wrote that message; it does not prove that the) Tj T* (database transaction committed. Evidence would be the committed database transaction, the resulting) Tj T* (account balances and the corresponding transaction records/reference.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+24 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+25 0 obj
+<<
+/Contents 26 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 27 0 R
+/F2 8 0 R
+/F3 9 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ ]
+/Parent 2 0 R
+>>
+endobj
+26 0 obj
+<<
+/Length 4416
+>>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+BT /F1 8 Tf 9.6 TL ET
+.4 .4 .4 rg
+BT 1 0 0 1 51.02362 22.67717 Tm (M_01_Excercise - Praveen Kumar) Tj T* ET
+BT 1 0 0 1 518.9 22.67717 Tm (Page 7) Tj T* ET
+Q
+q
+1 0 0 1 57.02362 755.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 19.8 Tm /F2 12.2 Tf 16 TL (Q26. The DBA proposes setting fsync = off on the core banking PostgreSQL server) Tj T* (because it makes overnight batch loads faster. Write a short recommendation.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 704.7008 cm
+q
+BT 1 0 0 1 0 34.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (I would not set ) Tj /F2 10.5 Tf (fsync = off) Tj /F1 10.5 Tf ( on the core banking server because it increases the risk of data loss or) Tj T* (corruption after a system failure. It may be used only in a disposable development or test environment) Tj T* (where the data can be recreated and the risk is understood.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 646.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL -0.147257 Tw (Q27. A new joiner argues that check constraints such as balance >= 0 belong in the) Tj T* 0 Tw (application, not the database. Give two arguments for keeping the rule in the) Tj T* (database, and one situation where the application layer is the right place.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 580.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 49.5 Tm /F1 10.5 Tf 15 TL (First, a database constraint protects the rule regardless of which application or job changes the data.) Tj T* (Second, it keeps the basic data-integrity rule in one central place and prevents invalid balances from) Tj T* (being stored. The application layer is better for complex workflow rules that depend on external) Tj T* (services, user interaction or broader business decisions.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 522.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q28. ICICI Bank is acquiring a smaller bank whose core system runs on) Tj T* (PostgreSQL, while ICICI runs Oracle. List four differences between the two) Tj T* (products that you would expect to cause problems during the merge.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 441.7008 cm
+q
+BT 1 0 0 1 0 64.5 Tm 15 TL /F1 10.5 Tf 0 0 0 rg (1. ) Tj /F2 10.5 Tf (Data types:) Tj /F1 10.5 Tf ( PostgreSQL and Oracle have different type names and behaviour in some areas.) Tj  T* (2. ) Tj /F2 10.5 Tf (SQL syntax and functions:) Tj /F1 10.5 Tf ( date functions and other built-in functions can differ.) Tj  T* (3. ) Tj /F2 10.5 Tf (Procedural languages:) Tj /F1 10.5 Tf ( PostgreSQL PL/pgSQL and Oracle PL/SQL are different.) Tj  T* (4. ) Tj /F2 10.5 Tf (Database-specific features:) Tj /F1 10.5 Tf ( indexing, sequences/identity behaviour and other platform-specific) Tj T* (features may need changes.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 383.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 35.8 Tm /F2 12.2 Tf 16 TL (Q29. Reply to ticket ICICI-4417 in language a non-technical banker will understand.) Tj T* -0.063866 Tw (Explain what moving from spreadsheets to a relational database will fix, what it will) Tj T* 0 Tw (not fix, and what the bank must do differently as a result.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 57.02362 212.7008 cm
+q
+0 0 0 rg
+BT 1 0 0 1 0 154.5 Tm /F1 10.5 Tf 15 TL (Moving from spreadsheets to a database gives the bank one controlled place for shared customer and) Tj T* (account information. It reduces duplicate copies of the same information across departments. When an) Tj T* (approved change is made, users can work from the same updated record. The database can prevent) Tj T* (invalid links, such as an account referring to a customer who does not exist. It can also prevent values) Tj T* (such as a negative account balance when that rule is defined. A multi-step banking transaction can be) Tj T* (handled as one complete operation instead of leaving only part of the change. However, the database) Tj T* -0.121885 Tw (will not automatically correct wrong information entered by staff. It will not by itself solve poor processes,) Tj T* 0 Tw (weak access control or poor data governance. The bank therefore needs clear data ownership,) Tj T* -0.10882 Tw (controlled access and proper procedures for entering and checking information. Large reports should be) Tj T* 0 Tw (separated from the day-to-day transaction workload. Backups, monitoring and recovery testing are also) Tj T* (required.) Tj T* ET
+Q
+Q
+ 
+
+Q
+
+q
+0.0 0.0 595.2756 841.8898 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+0 0 311.811 31.1811 re
+f*
+Q
+
+
+endstream
+endobj
+27 0 obj
+<<
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+xref
+0 28
+0000000000 65535 f 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000155 00000 n 
+0000000204 00000 n 
+0000000457 00000 n 
+0000005311 00000 n 
+0000005418 00000 n 
+0000005525 00000 n 
+0000005637 00000 n 
+0000005742 00000 n 
+0000005998 00000 n 
+0000011024 00000 n 
+0000011132 00000 n 
+0000011388 00000 n 
+0000015628 00000 n 
+0000015736 00000 n 
+0000015992 00000 n 
+0000019211 00000 n 
+0000019319 00000 n 
+0000019575 00000 n 
+0000022552 00000 n 
+0000022660 00000 n 
+0000022916 00000 n 
+0000026874 00000 n 
+0000026982 00000 n 
+0000027238 00000 n 
+0000031707 00000 n 
+trailer
+<<
+/Size 28
+/Root 3 0 R
+/Info 1 0 R
+>>
+startxref
+31815
+%%EOF
+3 1 obj
+<<
+/Type /Catalog
+/Pages 2 0 R
+ /AF [29 0 R] /Names << /EmbeddedFiles << /Names [(Content Credentials) 29 0 R] >> >> >>
+endobj
+28 0 obj
+<< /Length 24294 /Type /EmbeddedFile /Subtype /application#2Fc2pa >>
+stream
+  ^Êjumb   jumdc2pa  Ä  ™ 8õqc2pa   ^¿jumb   Gjumdc2ma  Ä  ™ 8õqurn:c2pa:e2511167-6f8a-4c9c-8a91-5aad36483583   ∞jumb   )jumdc2as  Ä  ™ 8õqc2pa.assertions   	πjumb   #jumd@À2ªäHùß*÷ÙCic2pa.icon    bfdb image/svg+xml   	wbidb<svg width="716" height="716" viewBox="0 0 716 716" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M508.749 317.399C516.777 287.314 508.991 253.884 485.389 230.282C461.788 206.681 428.36 198.895 398.273 206.923C376.231 184.928 343.39 174.956 311.148 183.596C278.906 192.234 255.45 217.292 247.36 247.361C217.291 255.451 192.233 278.91 183.595 311.149C174.957 343.391 184.927 376.232 206.924 398.274C198.896 428.359 206.683 461.789 230.284 485.391C253.885 508.992 287.313 516.779 317.401 508.75C339.442 530.745 372.286 540.717 404.525 532.079C436.767 523.441 460.223 498.384 468.313 468.315C498.383 460.224 523.44 436.766 532.078 404.526C540.716 372.285 530.747 339.443 508.749 317.402V317.399ZM470.899 244.776C486.892 260.77 493.488 282.601 490.687 303.412L415.577 260.046C412.411 258.218 408.509 258.218 405.345 260.046L317.401 310.82V277.526C317.401 275.191 318.652 273.005 320.676 271.837L387.644 233.174C414.178 218.353 448.346 222.223 470.901 244.776H470.899ZM357.837 311.144L398.275 334.491V381.185L357.837 404.532L317.398 381.185V334.491L357.837 311.144ZM264.776 269.693C265.207 239.305 285.644 211.649 316.453 203.393C338.3 197.54 360.505 202.744 377.127 215.573L302.014 258.937C298.848 260.764 296.898 264.144 296.898 267.798V369.346L268.065 352.699C266.043 351.531 264.776 349.353 264.776 347.017V269.691V269.693ZM203.391 316.454C209.244 294.608 224.854 277.978 244.276 269.999V356.73C244.276 360.384 246.226 363.763 249.392 365.591L337.337 416.365L308.503 433.013C306.481 434.181 303.961 434.188 301.939 433.02L234.971 394.357C208.868 378.789 195.138 347.261 203.391 316.454ZM244.775 470.9C228.781 454.906 222.186 433.075 224.986 412.264L300.096 455.63C303.263 457.457 307.164 457.457 310.328 455.63L398.273 404.856V438.149C398.273 440.485 397.022 442.671 394.997 443.839L328.029 482.502C301.495 497.322 267.327 493.452 244.772 470.9H244.775ZM450.897 445.982C450.466 476.371 430.029 504.027 399.22 512.283C377.373 518.136 355.168 512.932 338.547 500.102L413.659 456.738C416.826 454.911 418.775 451.532 418.775 447.877V346.329L447.609 362.977C449.631 364.145 450.897 366.323 450.897 368.659V445.985V445.982ZM512.282 399.221C506.429 421.068 490.819 437.697 471.397 445.676V358.946C471.397 355.292 469.448 351.912 466.281 350.085L378.336 299.311L407.17 282.663C409.192 281.495 411.712 281.487 413.734 282.655L480.702 321.318C506.805 336.887 520.536 368.415 512.282 399.221Z" fill="black"/>
+</svg>
+  "jumb   )jumdcbor  Ä  ™ 8õqc2pa.actions.v2    Òcbor¢gactionsÅ§factionlc2pa.createdqdigitalSourceTypexFhttp://cv.iptc.org/newscodes/digitalsourcetype/trainedAlgorithmicMediamsoftwareAgent¢dnamengpt-5-6-t-minigversionngpt-5-6-t-minidwhenx2026-09-17T07:25:13.553433ZrallActionsIncludedÙ   §jumb   (jumdcbor  Ä  ™ 8õqc2pa.hash.data    tcbor•jexclusionsÅ¢estart¢flength^Êdnamenjumbf manifestcalgfsha256dhashX Ω~ÙY¯x·
+˘Ìm&ó“ŒTíwGπ≠ïè)˝&dNbâcpad@  âjumb   'jumdc2cl  Ä  ™ 8õqc2pa.claim.v2   Zcbor¶jinstanceIDx,xmp:iid:a9b90e41-fe80-4f8c-9644-c2626cf52419tclaim_generator_info£dnamegChatGPTdicon¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„ÒkspecVersione2.2.0isignaturexMself#jumbf=/c2pa/urn:c2pa:e2511167-6f8a-4c9c-8a91-5aad36483583/c2pa.signaturercreated_assertionsÉ¢curlx$self#jumbf=c2pa.assertions/c2pa.icondhashX u>=W1í≥®NÎL˚¡åt∑'w÷–6«e6„Ò¢curlx*self#jumbf=c2pa.assertions/c2pa.actions.v2dhashX <ÍŸ˚QÍ”êÔ~ƒg√S∑{ìﬂË>∞<¿Y6O›÷o/¢curlx)self#jumbf=c2pa.assertions/c2pa.hash.datadhashX 2ÂèFÄ‡ÛÈ==M"Œ=1≠3c(Aûß{p€ˇfVôóhdc:titleiimage.pdfcalgfsha256  P8jumb   (jumdc2cs  Ä  ™ 8õqc2pa.signature   Pcbor“ÑYË¢8$!ÇYà0ÇÑ0Çl†•¸ÈpåÚÄ1ÓDds0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260422155105Z270423155104Z0G10	UUS10U
+OpenAI OpCo, LLC10UOpenAI Media Service0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ù∫jLMóÍÅâ∂—æ^XNr°ôﬂiq|Â!#”Å¢5úL£J<Ôn+øÊdÆ◊ÑKi$ZcœÍv
+ê≤e€|<ç·˛¡3wØ'ﬁ; :¥cáòÕMúø¥3D™T07F∏˝öyDsWU£c|›¨X/ÊzÆﬁ•ò√ìNHZ¯‡|§íK’l∫ ¬*»íæu‘îgµW™jöm00,◊Uaåj“S∂ x^ECûNí£ÄÒØ[—≤Î˛ãÔ∫◊7	ï´d-ô…áö¯ø.–ÁcÄñöy†7ì6£5…H…,òcÈDõ5¨πßSlúhs»
+9ÃIÛ £Çg0Çc0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0o+c0a09+0Ü-http://crt-c2pa.ssl.com/SSL.com-C2PA-I-R1.cer0$+0Ühttp://ocsp-c2pa.ssl.com0U 00
++ÉË^0)U%"0 ++$
++ÉË^0UÛùM‘Àùr¯F
+vG•hOt0Uˇ¿0	+ÉË^
++ÉË^
+03	+ÉË^&$019bc403-5cd7-7669-afe6-fdb17177d4280	*ÜHÜ˜ Ç Ç8óle°7 Ò˘Ìt∫’¶[5ıglœ+fi@Õı¸“rVﬂ ï(Í¯fﬁBC=¯x†h(â≠µÓ¸ı2“å∏_ÁlÄnÎ[|ó[0Á.B∏∆pö˛˛ 	¨5F’†åIEÄ√∫íU«Zùo“Îÿyõñ:ºDê44}ÙA•3ó/.lQR
+m=I∞À«ÜXÃ‹Óû.È∆9∏3\ ⁄Ó W3T.p(J%)Oí|.“˙›g.zËPx9Q∫É:⁄à~ê#êíıbXöÂ¬®sÜû≈ÿqÈÔ\d{ëÓ7/vòxVdÁoB—}íºÖjomdÖÿˇ"ñÌπÔ≤–\Ñ}h]5[K±≈iHyÊhé†ƒaò:L¯¿$yÂ¶h‡Ô˝÷ê÷.-AduV_ìî∂°úä<∂¿ËmÛ≈CÁv,h§ÚÊÀãàïË{*r$Å=!∆cm/%Ä£ô[™)•˝GÍ·˜kÂ˚[P&m+°Ç]1ı›b®|2‹L«•,r0PÄWìÇ‚ËÆ≥ßØY4ÆrÔ*ùÆx¨‚3ÏSµ…ô“(®*7°N´¸Ã~Xõ'mE·¥*úΩ0W°1. .…‚»T€°íOæ$5ò˛/i‹∏M„ﬁ/Ëlı¡ä‚”˛rw”®+‘WóÆáÿ æì∂âYS0ÇO0Ç7†'+c»ÃM-õÑQrlÙú^2QÆﬁ0	*ÜHÜ˜ 0O1&0$USSL.com C2PA RSA Root CA 202510U
+SSL Corporation10	UUS0251222181730Z301221181730Z0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç À:¥Õ∏úÀ)V∏yß¯kˆ˘ÿèr√¶ò≠*A⁄a.GRΩtQæ]ÏzÇ∂¿˚˙Ë'•ãË˛bÛ`Ò_H ssï‰NnÃNz5ﬁX·◊Ç‹“GCwõﬂHàyü£9§YN^‡NGóÚuB◊v=∂§"‹Ì∆o‘rFå÷Q«µ∑zÚì˘#'’ÄPuäp†hÈÁºÑ(|ú*Í)©¿/˛…vFU∞/cÍ}ûÙ∞D§@ﬁ@6\DäTkWHˇªo§’Íé¬◊|ÿºŒiø† MìE;ô.y“œûü)ªFŸxc0ñ3Qú^ìm˙Â4JXx≥)l]|∏uï<ôw!{ÿ¥JÎ⁄Õ«
+÷…¢ﬁÆó≥∂Qñ⁄íõ√≤ªPƒ˛∂§Lï]-íjObÂ‡*˜i†ú’πì ⁄—ª^O∆Ø˘)L–…ÏÎÛ≤qP{v'hë˘Pà∏w5ÿÕ°·◊”)ÁJ∆áTY$¬g≤m	5€∫Œ∏F•‡ã⁄·ßüjŒ`“ƒ˜¡ﬁsyU‡p¥ÔÍÃ«˛vâNf
+ià-Ì√F¢*‰å‘úWF-Xb’ ®˙~¯¬ŸajÀ5]†ì£≤e®/ÌÔòÁ¸~∫HÙ™°q¸ìØÍßNsài’B¿˘ÑíÖOÀT≥=:¯›)ey Cûñ∏áXñ!Ô—ë{ £Ç&0Ç"0Uˇ0ˇ 0Uˇ0)U%"0 ++$
++ÉË^0U9=G‹óèØà{MsÕÂÓ§•*0U 00
++ÉË^0U#0Ä¸*Ju:Ä˙ôcìsWÏæì∞}√{0x+l0j0$+0Ühttp://ocsp-c2pa.ssl.com0B+0Ü6http://crt-c2pa.ssl.com/SSL.com-C2PA-Root-2025-RSA.cer0	*ÜHÜ˜ Ç Œ6˙>Ôñ6-éØUfˇ{+ kVıÀ≠Ω*Å≠•¶–M£>ì‰ìi’‰å®nÊ7T‚%úÏef(<3=¢ö¢ªÕgdJÁæt!°n√´&ƒ;,⁄Uπ˝GN‡çxõ7Éƒt;≈GaÔmAr§€]CS…ñNÂ‡:ﬂ®›.—ØXó÷ÁÙ_r#<kœΩ9´åì®èßvY>·íı˜Ÿ˚Fb´nn‘àF†≥/*j_•N⁄¯‘¸ÃŸ£<©wE
+¡˘òπ9ÀÃ°q¿*Çq”‰ˆ%‚Q!m÷ﬂ‰SçoJ}é^¿∫’wy!ÅzŒÌ˜õé∂≤äBVùèkA*˛kúãÓ£(œ_ÛÈ–d÷Ó¬âKÎíœıØ¬'M∏ë°7%ôÊ˝Ä‹Ùº«7{æ¥-gX/Á√≥ãqÂDz0∂•≤u>[#~;”T¶:π«Ã3’j5zÅv/˛W⁄i¯>?ÔTèã{F√cû˙Ìƒ/pÑ+ˆVÇÙßÀ$◊l^${:Ω©X;i≥úè“ptˇãn&ª√´E«SñúGµ∆F´^ı¸àãh£5Â|jïeµ´Îπˇ∫∏‡õJG≤ŒÏ/â}ÓØúMƒ…Œı2=è˜&4˛"ãzÌ˘^^g_Q[€$V˚—Y°∑ﬁöf	∂—Ü.˙}~ïyõDf|6Öˆı£gsigTst2°itstTokensÅ°cvalYã0Çá	*ÜHÜ˜†Çx0Çt10	`ÜHe 0Åá*ÜHÜ˜	†xv0t
++Éø0010	`ÜHe  B«ÚÍîU»å!º‰ò†‚J„Êˇ
+PJ≤â]´∑—´§>	 ˇâ`‰#≠S20260917072519.888147Z0ÄF¥ïXÓ†Çf0Çˆ0Ç^†a€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ 0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0260408174626Z370709174626Z0u10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Leaf0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ Í ≈≠î˝˝'ü«xßa ˇ)a*˚°àÕ_®¢óùâ/ãë»º∞ñê=UÇ¡ñé6j≠âiËê€,D2É®
+ÕwÂ5ËÓ®d[˛∏‡éùÁ °(√5›ß7È"˜	Móö¥Ñs¿.|©PG(†¥i∞á)zY˛5B˘ŸiRJ 7ÚhÃÒ-∑Çñ KF\=§Ü∏KEf8¢NM' ï∫uÃNájüt√ $_ƒ~\Æ˛ÛïÌ ëﬂ<ıÜõ*^÷–›…˙»M√…ÑZI,‰8s`R∏LÓ∆Û∑∂ÿ›j©Œ ∫]÷ƒ\5dÚ#S?bée]p+‘…k	ÅERËWÌZF]⁄]vú%yhÉQ§òÑuëròUˇÿ„Cb±Ìig'Aº≈èÚj+ÉIË·-4ª9ØgΩ¥ï»≤ΩEgÕràî_UK,≠ØÌ•Ù$Øw>ÉädQèëå9ñK∞=Æ˙ô°>å=æ6°.ıcµ £x0v0Uˇ0 0Uˇ¿0U%ˇ0
++0U§'TÇ¢äÄ{=≈ÜÕ?pŸ¬ÉôQx0U#0ÄÚ∞«T=#CÖ‹ s–rÄ=∏®0	*ÜHÜ˜ ÇÅ  ˚$OA¿¿ºò≤2 ç ôH5OƒFV~ß>?∂•#˘*H>‡QùE@x¡ªÉNìP…õ'ñhﬂMŒÚˆ“y´ÔÍ¡⁄?ıòYÊpÕâÙÓGã™ÀÏˇå~·FÿëÊú∏‰4Fˇa“x¯}89„RÌ_fËs¿ r;‰®´éÜ*£7!˘;ﬂ{\TÿL«j*KœCt`Äs£…—wØá©˝µ±Ñjnøà*Œö°ö´¢ûÇH7≈cQó€R|og…iB’œı˚≠^ãê‚‡y<.Éjû•Ë%AèÖÌ‰¡†:ç˛ùRPÔáﬁ·dÕU˘! ﬂ∂)Ôü'n—∫4F´J"OÁbw›E#›a-¬1)èƒπ~y´¥W‘¡Ïœ·\{eI∞ÎM´§«'@N¶¥µèœ|√¥Cßv”^0cÓ®Æ5(td´Z5„[/:>N
+a÷0MCõˇN.∆!π>:, W0ujédK¢–	—◊†g&Amg¯pv∏%&V˘ë&'√KI0Ç~0Çf†ç ∆≈≈⁄∞ºÒNï•Íº0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174626Z21260409174626Z0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CA0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ âº‘π‚»°æaªﬁ<df~ßæúm”©0&<Ù‡k 9ﬂï4Ì©¢eH€7Ü2ÉéÃ
+J†¿Û4l†¿òÕ+ü•ÙÀ|Ÿ&ﬁ~…M¢Ôc[ëÊˆY®“˙N˘Ÿ8+ZÕ`ZòÅò®◊S∆„÷.H¨CW	ÈîÚG˘lEä`∑˜Æ/^¢5NÖ8Öiü4ù–MÿC=Õ4m¸cì¸”pªJËvËjNfI†Ì¸¯æÔö∑®w¨Ô∑8Ãπ‘*3ƒv÷@wÀ˛«]-@”ﬁã<¿÷@AôÀî?,} kR¸û P∑	GE·#U˙±OoTòïÙ}∫¯h·"z‹äëCã∂.C±b†æ $é.Ôø§—MË∏?1œ&=≈ PÍÚŸ$ dÌ’sû.px™ﬁV<˘‘Ä¢Ë≠Øˆ˚®£\Àh´D€0wÚƒ4tkUm∆á˚Ú2<ûqE˜ÏP˚˛÷1&ª–ƒMa‚B€Ø√+n_+Ê‚∞Ôç\DÕ¿s}è¢ÈΩmÇº%eÑ0iÌ £{0y0Uˇ0ˇ 0Uˇ0U%0
++0UÚ∞«T=#CÖ‹ s–rÄ=∏®0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç íÏ7\ﬁlÎd⁄Æ°	0rÆ‹rı;ºz=÷∆·/ˆÉ3}ËW@NLô™k‘ôŸã€k÷L¯ –Y3”°†8\#àD$˚á·ˆì'º°ÌL_g]ˇ5´1“Ï{‘@C7O¬Ñú∫d»∞¢~ö6¯·–Ç≥PC≤‡UΩÄî»YRNJtﬁ]«EXõ∑˙0™;‹Gº’.,π8c,yZ∑›U≠=BﬂàœÒh˛s ‘Z∑ﬁ$óë¿Ág˛‹¶
+Û•F≥QœçØ_„»∏@∆Ω„˘÷Kq–d]Âd¬K¿^w—=«[ûœ{˝îîÁKQ⁄˚dÙ´5îÒˆæ~+›≤ö=P›P√ñdém´sü(;w–óÌoEO±3._FÎÉ∂©aº◊ÇÆ¯Äo¬„i0Êm|:Dí+ò-Ø‹4¡æ•*HÁá»ﬁ8µ3 „ÑPpÒ≤KﬁçOˆë‹_Ö˙ÒÊ—◊ ßÓ¥üˆ!x)Å„pXwÜ§:KóÉFË⁄¬jv…©À!Eæe±†Ü.ÄºYKMõCm¥◊Ñ‡¸’»aêCéjù√Ò!<Ñ]˛;÷ÿ#9E_q˙2˝†ÄïDµO Â√t˝‚NárÜÙQáΩ‘µ+5lí§;kjù∫˝¿;úv¬’9I⁄„î>Pj◊L‚âaùÔÎœ≈√@npz80ÇÊ0ÇŒ†P;lâå$3,è˜Oé˚}ÇÏ0	*ÜHÜ˜ 0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0 260408174625Z21260409174625Z0x10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Root CA0Ç"0	*ÜHÜ˜ Ç 0Ç
+Ç ˆíÈ“∫≠û·¨u®Vÿ™±≥jí_ñyıí∑-$¯ø¿Ø`æ¡öÕyö‹lö˛6ö¡ò§?‰,ù∫••Ps≥
+¬˘ÛƒI/xΩ“ÏºÁ?Ùõ—Ú†a¢,â% Q˘%ú“∆/ÙâƒA˛&”m5ÕÏª5`@®ÖQæˆÓêòÒ*ÿùzkjŸ.ŸcÛÂ\)≈Ü"¡ähÕÎ8û©Pñ[#C˚8ˇB|;:°Q/%…H‹1ˇPrÓ|°wÕoÅaÛ?ønË“±¶6‰k2˚˛w®^õ\››1êLéeˇÅÀAŒ(1S CŒHn}÷d≥)‰¥.:∑TZrVWÛ®j}ÔÊa›e»H	Iô2t
+¢Ã›ì S¨#ΩÇÖ ±ÔæÌ°w Ó:F3¢ûÏØÈ1f¥fo≤âì†~ï!ŒA¯^éÈÕπ¿’3]x––'1œP0rs⁄j¬¿ìœ≠‹dáˆ˚Nàvı>Ôˇí,ôw.ˆ‹ò∂ù	:˝Ù	«è_ZÈ~H	+µäÉÚ[<,Øë¢ùA∑Rh—ø∞¿⁄O`ΩÓ)™Ìáçq\(åçà£%cEÿ¸{aèlFT;\…∞ÇØÉ»±#?ü[Ó¢◊Tµ*SÆªÖ€¶˙óûÏÑârÛz@…∂ÖXG[Ò$a9¢Lﬁÿ∆®"Úûø[L,À £f0d0Uˇ0ˇ0Uˇ0UX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0U#0ÄX¬@†<Gv+®Ên®ëñéñ»∑Ÿ‰0	*ÜHÜ˜ Ç X¯ÅëòÚla˛»Ü÷[Ñ¶÷æ∏¶]]IÀ∏°)Õ-ù∏X˘Ñâ=<¯o’j¥*¢UígÅô^µT˚öFÄ„Q S¿¡àWﬁÔÇU~„Ù}Î&¸Éˇ!®¡¨ﬁ€ì´Õ–0v:ìùŒ™g9.Ätﬂm~v/ÈÍPAã8=lÂ‡>Ó/€dT6^æbE∂—!¥Ä<åÎ⁄ú÷J©’Te[k—X~¿IáÎÎK_í;î◊öÜˆ°YŒG8¨√∞td—¿R;°±{(k·ió¯(;'ˇÆ§û˜eÀ†ÙÍπΩîŒD‚ò±
+HhÓU©!•`è˛ ÷}—{Ü úÛ®x–∆⁄@.»Å\b®*¡˚VÁyéØÏÂ€”p˛FÃc®dÒ<ÈØ•dº^øÖ-∞Œ„π”§◊RªpãÜù˚.ø
+ˆ“U+#B+C\Ï°Ça?œqÌ∞˜óÈ‰À¬<¸¨w∑∂‹ ¡LÈâ≤≤/√~ídúµÑﬁÃñ˝â∞KµC}“È≠Ü˝Ÿ-üΩ Ó¿¥GV#|HëNgâ {b¡…^UÒˆ∆Q#WoÔáæ Fyæî±» (ùïäà&UfRÔŸK∫®ZÈ¬,≠ü√\BÛ°ı'dyqå
+Zû˝π˘Eyp·jµ7ñéX˝EøT%åÉ=Ÿ&3#–Xw¶∏1Çh0Çd0Åì0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	`ÜHe †Ç%0	*ÜHÜ˜	1*ÜHÜ˜	0/	*ÜHÜ˜	1" ór∑¬PÚ3ß¬‚Q„&•nDòó#
+∂’ÏúZ±¥0Å’*ÜHÜ˜	/1Å≈0Å¬0Åø0Åº ΩOπ≤êLÅ6gànÔA·m˛Ÿ"ùø[íJ–¢ƒ`F"z0Åó0§}0{10	UUS10	UCA10USan Francisco10U
+OpenAI OpCo, LLC10
+UTSA10UOpenAI TSA Issuing CAa€F(2äåçJ∑ø˛`„l?q∑0	*ÜHÜ˜ ÇÄÚ§Í®0#>y$1.ÌÚ†Xl≠˛ÏeµÈ+ënv‹÷S¢ z≥Îk:uèDu£BÉ%¡Ã{Ñ}h€!¸·√∑˚h¢°•:îCæ5 k_p Ç√r”f√«-»ZüYûr∂	¡9-åéGåZ-iWØ– ˘è…Újöÿy:fØXDú"}_ñ‰Ç‰∑;ﬁØCZõwä9◊÷UòNÁœe!!ö$ä#≠A›–¸?6H~ q'⁄Áeπur-d?-HŒ3t|i»ÊÓ)v≈$Qú¢=q ø+q†» \™˚ı0©P¡ö"ñ€eØ∂0@îœ-ã⁄805¿%"V¥3E|xNMj~”Dÿ•F(F€√O.⁄^)¥	är¯©º¥4‰sSﬁöê‚Ãß&Œ›.@J¥xÎ®|Nsè$Œ?e]ã	àÓi}˝"E€ﬂ÷}C’.rMa*⁄¨}î^F?Ú∫Î_Rs∆?c2¡5Ë•Ì˜igàïé¡âøÎIS)ÊerVals°hocspValsÅY◊0Ç”
+ †ÇÃ0Ç»	+0Çπ0Çµ0ÅÈ¢cÛ¢^ÕÕ≈Rπ?Û”5fm»~20260916220332Z0Åò0Åï0I0	+ ﬂÇ7S^Sÿ3±‡=$5ÒuÊ·
+9=G‹óèØà{MsÕÂÓ§•*•¸ÈpåÚÄ1ÓDdsÄ 20260916220332Z†20260923220331Z°"0 0	+020160918220332Z°#0!0	+0%€X‡5® ª›.aÓÖ9Ñ0	*ÜHÜ˜ ÇÅ \=Ë˙/˝V/Êsâ·1ïÀíîòÁ®¸/Ùj‘ÒÊ“\Ã…§„Dï:§ı<dp∂‹ÒéÄï∑j∂X€wr ó¢ôBïù$˝ªoé–˛D ˙◊ÅømWˆ∆hº	∆÷ 2_Gä∂6r+(W∑4k0ö˝ºÅbÇã‘‹‹Ó®ŒœcHËíÈMıó„ÉXªè¢⁄¿ædﬂ7Ï≤O1ç°ü3°†îàOQ`|M†[,÷!_=8S“'ŸﬂﬁnÜieØlSZù⁄D™-Ld– í”lÉÎ>˚‹ü≠◊k–≥ñ≈“∆ü…•»∏t+~®UÀ‘ùsˆµå°çGπSô—Ç>h	DB4ÄÚ∏Ñ˘qYE€;—ΩXËiÃ´ô!45ˇaå¬_≈p¢æté˚ØM≥Du1.¿@Î„¡ª HîÊÊAinË∞´©3µ0UÛxfÂ"®+ñEyÍzLÿ9˘Œ√ÙQRVólCß¨å*Ù∞–(Æ÷∆c*«$°aÜÇ	˘`∆çÿ˘∆†Ç10Ç-0Ç)0Ç†/	õËƒH®EM—g+a0	*ÜHÜ˜ 0J1!0USSL.com C2PA ICA R1 202510U
+SSL Corporation10	UUS0260102212505Z270102212504Z0M10	UUS10U
+SSL Corp1+0)U"SSL.com C2PA ICA R1 OCSP Responder0Ç¢0	*ÜHÜ˜ Çè 0ÇäÇÅ ≈Á¯ô…˘Â-œhwÈiëP‹©ë\O¿´—ô)„ñŸ˘Y˜fÄäñû*´¶Ü˘dkV∏NêƒÍ,D[ïp\âKºúÁïA¯V ” &Tn=∆≥ü∂tZ¯€kûPhêù‹Zêò©ãCﬁÇùûœz`ÎãØõè)∏Ü	G≠U[^
+èÍÃäım$8Ëz˚¡¬–Ì+ıÁëpÁzπ‘Üüó4hs‡ü2`Ø∆™tFµ0fÚÎz™ÄDxCü ´bÒ“∑L1R¶$D˝#÷2“y¡⁄¨,fÏËàíCÑ/m,ïìÅ<Òâ¨'ã‘I”kb∆h*(¶»s•lÇÈl‘∞
+ Ûß%lY¬∏≤ürn4‚£x;3 q% ≠•π…[∑CN¢”[Ç¸d^t;{ƒ:ÔS´ñ˚ÌÉqúv<ü¬nmÏYdÔ9´˙åü@ˇπ<±ÃOﬂM%4ØÃ]πBÖk6[ö·0s◊Ú˜?‡ùÃá—πíœÉ‘ƒ\f˚≠Ò £Åá0ÅÑ0Uˇ0 0U#0Ä9=G‹óèØà{MsÕÂÓ§•*0	+0 0U%0
++	0UcÛ¢^ÕÕ≈Rπ?Û”5fm»~0UˇÄ0	*ÜHÜ˜ Ç wÏ∫'8¯Ãıl>(‘≥
+œwıÜh|uÉÂIƒh˙√fΩ“pw¸L&à˜0KTdŒë| Ø∑Zµ‰™ôüá6È`ú∞"éΩÊˇ¡5ÿd_¨—>·@â®ÃâÁ†2fµ.øÒ9M˝lsæˆ 6p„’_yŸ÷r¡2LÙÖ©B∏FÇÄ3≈h,ªÂ¸2ûâ_ü–˛üãk\^tüPÒ)úP ƒV¯¯	•xw≥‰ëäÂ *∂·≤≈±!Ω¢ÖÜ8£¨∏:9 ^÷1∂˛∫:™†∫SNÚÛ*OÿdÖÇyZ‹Oã‘S¬=z¿∂¶ΩÑ*Î4Ïí2˚ µi„_:±ìQ…XRòï–6Øö›djÜ^cY¥ÇNßä¸≠˜C9CqQI€««Bë `EØC[i¸J<1ˆ|;Äù¿[^® %ıÌE¸F˛{πˆM,A$§`Ø£ÛÎ„∏ıqÉ»IΩê?Ëÿëé4X6Üﬂ’Œ∂%≈ìY˜s¡3˚0oåπÈ=“{h>6ˆ˘Ïx*˚±˙Bt1ÓöÿHn±¯û–+…ƒè˚<zœ«‰“ßj√3”÷¡ µË"ìLÆ_4éÔi{€|Ãeı1¥UâUÇN»n…√€Oëª^◊EST}hL˜\⁄)›µv,6zãGåÌc‡£´4Ÿ≈∞Eπ∫úÊ•r›∂∏!ﬁê«gcpadY&u                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ˆY IÄ≤+`Õ@%ç≥ã^Ò Fﬂ3YŸÿ´Ï.ì “bHx* K€C.ÊDY:ã€íÜ·ƒﬂÙGªæ™v¬è}êª3áQòEõä$ΩÀvwfÉ`g¨^YAb≤‹ª<Ö:öâÈí÷ø:÷¯—weµ*O@Ï∂Ñ*}JCTK\˜\¿+˙Ëëãzºû™K‘HıgÙíWå≤“0Rê“.êChØ`!\äk…îw\ ∂|–F /=^…ë¢˚m	&´o:‹⁄1Cúú=d¿6Fb>≠:∂rÙHΩ•Ø∂NCLaµ= Kˆâ∑—uÅRM6m§∂£nÏ˚ZﬁNFç
+endstream
+endobj
+29 0 obj
+<< /AFRelationship /C2PA_Manifest /Desc (Content Credentials) /F (Content Credentials) /EF << /F 28 0 R >> /Subtype (application/c2pa) /Type /Filespec /UF (Content Credentials) >>
+endobj
+xref
+3 1
+0000032454 00001 n 
+28 2
+0000032589 00000 n 
+0000056986 00000 n 
+trailer
+<< /Size 30 /Root 3 1 R /Prev 31815 >>
+startxref
+57182
+%%EOF
