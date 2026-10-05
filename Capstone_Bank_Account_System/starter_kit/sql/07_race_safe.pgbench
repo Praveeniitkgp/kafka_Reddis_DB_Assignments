@@ -1,0 +1,5 @@
+-- the same read-modify-write, but FOR UPDATE makes the others wait their turn
+BEGIN;
+SELECT balance AS bal FROM demo_wallet WHERE id = 1 FOR UPDATE \gset
+UPDATE demo_wallet SET balance = :bal - 100 WHERE id = 1;
+COMMIT;
